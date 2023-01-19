@@ -3,12 +3,10 @@ const macbook = {
     chip: "m1",
     year: "2020",
     screensize: 13,
-    wifi: "true",
+    on: "false",
     usb: 4,
     colours: ["grey", "black", "silver"],
-    ignite: function (){
-        macbook.on = !macbook.on;
-    },
-    };
-
-console.log(macbook);
+   ignition: function () {
+    macbook.on = !macbook.on
+   }
+    } ;
